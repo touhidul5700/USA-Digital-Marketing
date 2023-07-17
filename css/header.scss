@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+
 }
 
 // color Define
@@ -17,13 +18,9 @@ $main-color: #f4faf7;
 
 //header style
 header {
-   /*  .navbar {
-        width: 95%;
-        margin: auto;
-        border-left: 4px solid #bfebce;
-        padding: 15px;
-    } */
-
+   position: sticky;
+   z-index: 234575623745;
+   top: 0;
     .bg-base-100 {
         background-color: $main-color;
         color: black;
